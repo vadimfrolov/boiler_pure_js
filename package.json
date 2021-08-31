@@ -1,22 +1,41 @@
 {
-  "name": "webportsite",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "webpack_boiler",
+  "version": "0.0.0",
+  "description": "webpack_boiler",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "git:commit": "cz",
+    "build": "./node_modules/.bin/webpack",
+    "build:watch": "./node_modules/.bin/webpack --watch",
+    "start": "webpack serve"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vadimfrolov/webportsite.git"
   },
-  "author": "",
+  "keywords": [],
+  "author": "Vadim Frolov",
   "license": "ISC",
+  "private": true,
   "bugs": {
     "url": "https://github.com/vadimfrolov/webportsite/issues"
   },
   "homepage": "https://github.com/vadimfrolov/webportsite#readme",
   "devDependencies": {
-    "webpack": "^5.51.1"
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@rapidevelop/prettier-config": "^1.0.1",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "html-webpack-plugin": "^4.5.0",
+    "prettier": "^2.2.1",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
   }
 }

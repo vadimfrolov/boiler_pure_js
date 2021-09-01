@@ -1,6 +1,24 @@
-const $ = require('jquery');
+import "./styles.css"
 
-$('body').css({ 'background-color': '#eeeeee' });
-$('h1#title')
-  .css({ 'font-size': '80px', 'text-align': 'center', 'margin-top': '100px' })
-  .text('Hello from webpack-dev-server');
+const mainNavLinks = document.querySelectorAll("nav a");
+// const mainSections = document.querySelectorAll("main section");
+
+// let lastId;
+// let cur = [];
+// eslint-disable-next-line
+window.addEventListener("scroll", event => {
+  const fromTop = window.scrollY;
+
+  mainNavLinks.forEach(link => {
+    const section = document.querySelector(link.hash);
+
+    if (
+      section.offsetTop <= fromTop &&
+      section.offsetTop + section.offsetHeight > fromTop
+    ) {
+      link.classList.add("current");
+    } else {
+      link.classList.remove("current");
+    }
+  });
+});

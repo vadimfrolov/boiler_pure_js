@@ -1,0 +1,82 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+a {
+  color: #6A737D;
+  text-decoration: none;
+  font-family: 'Coda', regular;
+  margin-right: 2rem;
+}
+
+.current {
+    color: #000000;
+    border-bottom: 2px solid #F9826C;
+}
+
+
+
+.sticky-header {
+  display: flex;
+  /* justify-content: space-between; */
+  background-color: #F6F8FA;
+  padding: 1rem;
+}
+
+.plug {
+  height: 100vh;
+  width: 100vw;
+  animation: animateBg 14s linear infinite;
+  background-image: linear-gradient(
+    90deg,
+    #71c66c,
+    #ff8000,
+    #db5779,
+    #71c66c,
+    #ff8000
+  );
+  background-size: 400% 100%;
+}
+
+@keyframes animateBg {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.blue {
+  height: 120vh;
+  width: 100vw;
+  background-color: blue;
+}
+
+.red {
+  height: 120vh;
+  width: 100vw;
+  background-color: red;
+}
+
+.grey {
+  height: 120vh;
+  width: 100vw;
+  background-color: grey;
+}
+
+.yellow {
+  height: 120vh;
+  width: 100vw;
+  background-color: yellowgreen;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}

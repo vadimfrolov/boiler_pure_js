@@ -11,8 +11,11 @@ module.exports = {
   devtool: 'eval',
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
+    compress: true,
     port: 3000,
+    hot: true,
     open: true,
+    historyApiFallback: true,
   },
   module: {
     rules: [
@@ -22,6 +25,19 @@ module.exports = {
         use: {
           loader: 'babel-loader',
         },
+      },
+      {
+        test: /\.css$/,
+        use: [
+          "style-loader",
+          {
+            loader: "css-loader",
+            options: {
+              importLoaders: 1
+            }
+          },
+          // "postcss-loader"
+        ]
       },
     ],
   },

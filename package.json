@@ -6,7 +6,7 @@
     "git:commit": "cz",
     "build": "./node_modules/.bin/webpack",
     "build:watch": "./node_modules/.bin/webpack --watch",
-    "start": "webpack serve"
+    "dev": "webpack serve"
   },
   "repository": {
     "type": "git",
@@ -25,12 +25,15 @@
     "@babel/preset-env": "^7.12.11",
     "@rapidevelop/prettier-config": "^1.0.1",
     "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
     "eslint": "^7.16.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-import": "^2.22.1",
     "html-webpack-plugin": "^4.5.0",
+    "postcss-loader": "^6.1.1",
     "prettier": "^2.2.1",
+    "style-loader": "^3.2.1",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.11.1"

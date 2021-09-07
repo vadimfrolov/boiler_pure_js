@@ -1,4 +1,5 @@
 import "./styles.css"
+import laptop from '../public/laptop.png';
 
 const mainNavLinks = document.querySelectorAll("nav a");
 // const mainSections = document.querySelectorAll("main section");

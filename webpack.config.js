@@ -7,10 +7,13 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    publicPath: '/',
+  },
+  experiments: {
+    asset: true,
   },
   devtool: 'eval',
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
     compress: true,
     port: 3000,
     hot: true,
@@ -36,7 +39,7 @@ module.exports = {
               importLoaders: 1
             }
           },
-          // "postcss-loader"
+          "postcss-loader"
         ]
       },
     ],

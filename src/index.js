@@ -23,3 +23,21 @@ window.addEventListener("scroll", event => {
     }
   });
 });
+
+function component() {
+  const element = document.createElement('img');
+
+  // Lodash, now imported by this script
+  // element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  element.classList.add('laptop-img');
+
+ // Add the image to our existing div.
+ const myIcon = new Image();
+ myIcon.src = laptop;
+
+ element.appendChild(myIcon);
+
+  return element;
+}
+
+document.body.appendChild(component());

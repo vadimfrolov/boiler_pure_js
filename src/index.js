@@ -32,10 +32,10 @@ function component() {
   element.classList.add('laptop-img');
 
  // Add the image to our existing div.
- const myIcon = new Image();
- myIcon.src = laptop;
+//  const myIcon = new Image();
+ element.src = laptop;
 
- element.appendChild(myIcon);
+//  element.appendChild(myIcon);
 
   return element;
 }

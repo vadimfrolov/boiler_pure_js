@@ -33,7 +33,7 @@ a {
 .plug {
   height: 100vh;
   width: 100vw;
-  padding-top: 12vh;
+  padding-top: 18vh;
   background-color: rgb(241, 211, 211);
   /* animation: animateBg 14s linear infinite;
   background-image: linear-gradient(
@@ -93,8 +93,8 @@ nav {
   margin-right: auto;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  height: 75vh;
-  width: 50vh;
+  height: 60vh;
+  width: 40vh;
   border: 5px solid black;
   border-radius: 10px;
   background-color: rgb(195, 211, 240);
@@ -140,7 +140,7 @@ transform: rotateY(180deg);
   text-align: center;
   font-family: 'Walter Turncoat', cursive;
   padding-top: 0.2em;
-  font-size: 1.5em;
+  font-size: 1.2em;
   background-color: white;
   background-image: url(../public/paper4.jpeg);
   /* background-image: url("https://i0.wp.com/pawsandclawsaugusta.com/wp-content/uploads/2017/09/White.jpeg?ssl=1"); */

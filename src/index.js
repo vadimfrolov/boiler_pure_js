@@ -41,11 +41,4 @@ function component() {
   return element;
 }
 
-const block = document.getElementById("front-inside")
-
-function changeBgImg(){
-  block.style.backgroundImage = "url(../public/paper4.jpeg)";
-}
-
 document.getElementById("front-inside").appendChild(component());
-changeBgImg();

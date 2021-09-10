@@ -43,11 +43,18 @@ module.exports = {
         ],
       },
       {
-        test: /\.(jpe?g|png|gif|svg)$/i,
-        loader: 'file-loader',
-        options: {
-          publicPath: 'public',
-        },
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[hash].[ext]',
+              publicPath: 'public',
+              outputPath: 'public/img',
+              esModule: false
+            }
+          }
+        ]
       },
     ],
   },

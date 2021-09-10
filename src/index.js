@@ -1,6 +1,6 @@
 import "./styles.css"
 import laptop from '../public/laptop.png';
-import paper from '../public/paper4.jpeg';
+// import paper from '../public/paper4.jpeg';
 
 const mainNavLinks = document.querySelectorAll("nav a");
 // const mainSections = document.querySelectorAll("main section");

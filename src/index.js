@@ -1,5 +1,6 @@
 import "./styles.css"
 import laptop from '../public/laptop.png';
+import paper from '../public/paper4.jpeg';
 
 const mainNavLinks = document.querySelectorAll("nav a");
 // const mainSections = document.querySelectorAll("main section");
@@ -40,4 +41,11 @@ function component() {
   return element;
 }
 
+const block = document.getElementById("front-inside")
+
+function changeBgImg(){
+  block.style.backgroundImage = "url(../public/paper4.jpeg)";
+}
+
 document.getElementById("front-inside").appendChild(component());
+changeBgImg();

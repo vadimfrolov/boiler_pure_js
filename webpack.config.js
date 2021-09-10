@@ -50,7 +50,7 @@ module.exports = {
             options: {
               name: '[name].[hash].[ext]',
               publicPath: 'public',
-              outputPath: 'public/img',
+              outputPath: 'public',
               esModule: false
             }
           }

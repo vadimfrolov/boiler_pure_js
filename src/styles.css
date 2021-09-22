@@ -51,6 +51,19 @@ a {
   font-size: 2rem;
 }
 
+.first-time-logo-text-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.current-project {
+  color: #5faf2c;
+}
+
+.my-role {
+  font-size: 1.5rem;
+  color: #f9826c;
+}
+
 .second-time-logo-text {
   font-size: 1.5rem;
 }
@@ -60,8 +73,10 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  font-family: 'Rubik', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   /* text-align: center; */
   /* width: 100%; */
   /* max-height: 75%; */
@@ -100,7 +115,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Rubik', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
+  Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   color: #000;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -403,7 +419,8 @@ form + button::before {
   width: 0;
   opacity: 0;
   content: '';
-  font-family: 'Font Awesome 5 Pro';
+  font-family: 'Rubik', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
+  Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   font-weight: 900;
   margin-right: 0;
   transform: rotate(0deg);

@@ -449,3 +449,15 @@ form:invalid + button {
   border: 2px solid black;
   border-radius: 10px;
 }
+
+.social-icon {
+  width: 64px;
+  height: 64px;
+  margin: 20px;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+  /* box-shadow: 0 5px 15px rgba(0,0,0,0.3); */
+}

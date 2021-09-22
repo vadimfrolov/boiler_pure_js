@@ -116,7 +116,7 @@ a {
   align-items: center;
   justify-content: center;
   font-family: 'Rubik', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
-  Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   color: #000;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -166,11 +166,13 @@ nav {
 .tarot-card-wrap:hover .tarot-card.front,
 .tarot-card-wrap:focus .tarot-card.front,
 .tarot-card-wrap:active .tarot-card.front {
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 .tarot-card-wrap:hover .tarot-card.front ~ .back,
 .tarot-card-wrap:focus .tarot-card.front ~ .back,
 .tarot-card-wrap:active .tarot-card.front ~ .back {
+  -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
 }
 
@@ -180,6 +182,7 @@ nav {
 
 .tarot-card.back {
   /* position:relative; */
+  -webkit-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
   z-index: 1;
 }
@@ -420,7 +423,7 @@ form + button::before {
   opacity: 0;
   content: '';
   font-family: 'Rubik', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
-  Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   font-weight: 900;
   margin-right: 0;
   transform: rotate(0deg);

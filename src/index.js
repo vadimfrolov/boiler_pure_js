@@ -46,19 +46,24 @@ for (let i = 0; i < buttons.length; i += 1) {
   buttons[i].addEventListener('click', () => {
     switch (buttons[i].id) {
       case '1':
-        textButton.innerText = 'text1';
+        textButton.innerText = 'First, we need to clearly define the task: state and describe goals to be achieved';
         break;
       case '2':
-        textButton.innerText = 'text2';
+        textButton.innerText = `User-experience research methods are great at producing data and insights.
+
+        We can use: field study, user interviews and requirements & constraints gathering`;
         break;
       case '3':
-        textButton.innerText = 'text3';
+        textButton.innerText = 'Explore design possibilities by imagining many different approaches, brainstorming, and testing the best ideas in order to identify best-of-breed design components to retain';
         break;
       case '4':
-        textButton.innerText = 'text4';
+        textButton.innerText = `I can create sketches in Figma or Miro
+
+        With prototypes people show you where the problem areas are, then redesign and test again.
+        `;
         break;
         case '5':
-          textButton.innerText = 'text5';
+          textButton.innerText = '“First, solve the problem. Then write the code.” - John Johnson';
           break;
       default:
         console.log('goodbye');
@@ -66,28 +71,6 @@ for (let i = 0; i < buttons.length; i += 1) {
     }
   });
 }
-
-// const ux = document.getElementById("3");
-
-// ux.onclick = function () {
-//   console.log(ux[0].checked);
-// }
-
-// const radios = document.querySelectorAll("input");
-// for (let i=0; i <= radios.length; i+= 1) {
-//   radios[i].onclick = function () {
-//     if (radios[i].checked) {
-//       console.log(radios[i].id)
-//     }
-//     // const rbs = document.querySelectorAll('input[name="choice"]');
-//     // let selectedValue;
-//     // for (const rb of rbs) {
-//     //     if (rb.checked) {
-//     //         selectedValue = rb.value;
-//     //         break;
-//     //     }
-//     }
-// }
 
 document.getElementById('front-inside').appendChild(component());
 document.getElementById('central-logo-text').appendChild(avatar());

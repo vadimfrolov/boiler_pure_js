@@ -294,7 +294,7 @@ form #debt-amount-slider label::before {
   left: 50%;
   padding-top: 10px;
   transform: translate(-50%, 45px);
-  font-size: 0.75rem;
+  font-size: clamp(0.5rem, 2.5vw, 0.9rem);
   letter-spacing: 0.4px;
   font-weight: 400;
   white-space: nowrap;
@@ -462,11 +462,13 @@ form:invalid + button {
 
 .card-skills {
   margin-top: 5vh;
-  height: 300px;
-  width: 300px;
-  border: 2px solid black;
+  min-height: 250px;
+  max-height: 350px;
+  min-width: 300px;
+  max-width: 500px;
+  /* border: 1px solid black; */
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   position: relative;
 }
 
@@ -484,7 +486,9 @@ form:invalid + button {
 
 .text-slills {
   position: absolute;
+  font-size: clamp(0.8rem, 2.5vw, 0.9rem);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }

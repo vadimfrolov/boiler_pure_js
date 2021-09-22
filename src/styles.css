@@ -27,36 +27,40 @@ a {
   height: 105vh;
   width: 100vw;
   background-color: rgb(241, 211, 211);
-  margin-bottom: -3rem;
+  /* margin-bottom: -3rem; */
 }
 
 .blue {
   /* height: 100vh; */
+  /* height: 70vh; */
+  padding: 5vh 0;
   width: 100vw;
+  background-color: #141b1f;
   /* background-color: #BFDAEE; */
 }
 
 .central-logo-text {
-  max-width: 40%;
+  /* max-width: 40%; */
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .first-time-logo-text {
   font-size: 2rem;
-  /* white-space: nowrap; */
 }
 
 .second-time-logo-text {
   font-size: 1.5rem;
-  /* white-space: nowrap; */
 }
 
 .bigger-part-first-page {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  background-color: #141b1f;
+  justify-content: space-around;
   color: white;
   /* text-align: center; */
   /* width: 100%; */
@@ -66,16 +70,19 @@ a {
 
 .prologue {
   /* text-align: center; */
-  width: 400px;
+  /* height: 500px;
+  width:  500px; */
+  padding: 1rem;
   font-size: 1.5rem;
-  margin: 0 40px;
+  /* margin: 0 40px; */
 }
 
 .avatar {
   /* background-color: #F9826C; */
   /* justify-content: center; */
   margin: 0 auto;
-  height: 14vh;
+  min-height: 15vh;
+  max-height: 40vh;
   width: auto;
   border-radius: 50%;
   display: inline-block;
@@ -85,6 +92,7 @@ a {
   min-height: 30vh;
   max-height: 50vh;
   width: 100vw;
+  flex-direction: column;
   background-color: #f6f8fa;
   display: flex;
   align-items: center;
@@ -97,9 +105,13 @@ a {
   user-select: none;
 }
 
-.grey {
-  height: 100vh;
+.contact-container {
+  /* height: 100vh; */
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   width: 100vw;
+  display: flex;
+  justify-content: center;
   background-color: #f6f8fa;
 }
 
@@ -115,7 +127,7 @@ nav {
 }
 
 .tarot-card {
-  margin-top: 20vh;
+  margin-top: 15vh;
   position: absolute;
   left: 0;
   right: 0;
@@ -425,4 +437,12 @@ form:invalid + button {
     opacity: 1;
     margin-right: 12px;
   }
+}
+
+.card-skills {
+  margin-top: 5vh;
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
 }

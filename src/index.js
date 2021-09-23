@@ -54,7 +54,7 @@ for (let i = 0; i < buttons.length; i += 1) {
         We can use: field study, user interviews and requirements & constraints gathering`;
         break;
       case '3':
-        textButton.innerText = 'Explore design possibilities by imagining many different approaches, brainstorming, and testing the best ideas in order to identify best-of-breed design components to retain';
+        textButton.innerText = 'Explore design possibilities by brainstorming, and testing the best ideas in order to identify best-of-breed design components to retain';
         break;
       case '4':
         textButton.innerText = `I can create sketches in Figma or Miro

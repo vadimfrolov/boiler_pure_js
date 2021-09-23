@@ -160,6 +160,7 @@ nav {
   border-radius: 10px;
   background-color: rgb(195, 211, 240);
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  -webkit-transition: transform 1.5s cubic-bezier(0.5, 0.59, 0.44, 1.11);
   transition: transform 1.5s cubic-bezier(0.5, 0.59, 0.44, 1.11);
 }
 
@@ -179,6 +180,7 @@ nav {
 .tarot-card.front {
   -webkit-transform-origin: center;
   transform-origin: center;
+  z-index: 1;
 }
 
 .tarot-card.back {

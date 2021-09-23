@@ -6,7 +6,7 @@
     "git:commit": "cz",
     "build": "./node_modules/.bin/webpack",
     "build:watch": "./node_modules/.bin/webpack --watch",
-    "dev": "webpack serve --clean"
+    "dev": "webpack serve"
   },
   "repository": {
     "type": "git",

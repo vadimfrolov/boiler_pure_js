@@ -30,6 +30,12 @@ a {
   /* margin-bottom: -3rem; */
 }
 
+.plug:hover,
+.plug:focus,
+.plug:active {
+  background-color: rgb(241, 211, 211);
+}
+
 .blue {
   /* height: 100vh; */
   /* height: 70vh; */

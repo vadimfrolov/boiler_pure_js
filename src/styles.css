@@ -152,8 +152,8 @@ nav {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   height: 450px;
   width: 280px;
   border: 5px solid black;
@@ -177,6 +177,7 @@ nav {
 }
 
 .tarot-card.front {
+  -webkit-transform-origin: center;
   transform-origin: center;
 }
 

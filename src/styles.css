@@ -176,6 +176,17 @@ nav {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
+
+.tarot-card-wrap .back-wrap{
+ visibility: hidden;
+}
+
+.tarot-card-wrap:hover .back-wrap,
+.tarot-card-wrap:focus .back-wrap,
+.tarot-card-wrap:active .back-wrap {
+  visibility:visible;
+ }
+
 .tarot-card-wrap:hover .tarot-card.front ~ .back,
 .tarot-card-wrap:focus .tarot-card.front ~ .back,
 .tarot-card-wrap:active .tarot-card.front ~ .back {

@@ -12,7 +12,7 @@ It's made with plain JavaScript without any frameworks or libraries except webpa
 npm install
 ```
 
-### Run the app
+### Run app
 
 ```shell
 npm start

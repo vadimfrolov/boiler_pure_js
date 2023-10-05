@@ -489,7 +489,7 @@ form:invalid + button {
   max-height: 350px;
   min-width: 300px;
   max-width: 500px;
-  /* border: 1px solid black; */
+  background-color: white;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   position: relative;
